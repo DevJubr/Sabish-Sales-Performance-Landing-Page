@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+/* font-family: 'Raleway', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/* font-family: 'Manrope', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  /* Neutral/Haiti */
+  background: #211b47;
+  font-family: "Manrope", sans-serif;
+}
+.con {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.H__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  /* Gradient/Headline */
+  background: linear-gradient(180deg, #ffffff 25%, #e9e6ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.p__pera {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #bcb5e5;
+}
+
+/* ################ NAV BAR START ################  */
+.logo__div {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-size: 32px;
+}
+
+strong.logo {
+  font-size: 100%;
+}
+
+/* .logo__icon {
+  width: 34px;
+  height: 38px;
+}
+
+.logo__icon svg {
+  width: 100%;
+  height: 100%;
+} */
+.nav__btn__tow__con {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav__con {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__btn__icon {
+  width: 34px;
+  height: 35px;
+}
+
+.nav__btn__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.nav__btns {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+button.nav__login__btn {
+  font-size: 14px;
+
+  /* identical to box height, or 20px */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* Accent/Lavender */
+  color: #e9e6ff;
+  background: none;
+  padding: 16px;
+  border: none;
+}
+
+button.nav__get__start__btn {
+  padding: 16px 24px;
+
+  /* Accent/Purple Heart */
+  border: 1px solid #7760ff;
+  border-radius: 48px;
+  background: none;
+  font-size: 16px;
+
+  /* or 500% */
+  letter-spacing: -0.02em;
+
+  /* Accent/Lavender */
+  color: #e9e6ff;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+/* ################ NAV BAR END ################  */
