@@ -1,0 +1,14 @@
+h1.H__title {
+  position: relative;
+}
+
+h1.H__title::after {
+  content: "";
+  width: 222px;
+  height: 8px;
+  background: #e08155;
+  position: absolute;
+  top: 38%;
+  right: 8.2%;
+  z-index: -1;
+}

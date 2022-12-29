@@ -13,7 +13,7 @@
 }
 
 body {
-  /* Neutral/Haiti */
+  overflow-x: hidden;
   background: #211b47;
 }
 .con {
@@ -196,3 +196,220 @@ button.get__started__br__hero {
   align-items: center;
   gap: 24px;
 }
+h1.H__title {
+  position: relative;
+}
+
+h1.H__title::after {
+  content: "";
+  width: 222px;
+  height: 8px;
+  background: #e08155;
+  position: absolute;
+  top: 26%;
+  right: 8.2%;
+  z-index: -1;
+}
+article.hero__img {
+  width: 100%;
+}
+
+.hero__img__con {
+  position: relative;
+}
+
+.hero__img__left {
+  position: absolute;
+  left: -18%;
+  top: -15%;
+}
+
+.hero__img__right {
+  position: absolute;
+  top: -60%;
+  right: -18%;
+}
+
+.hero__dashbord__img {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem 0 0 0;
+  overflow: hidden;
+}
+
+.curcale__under__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #6955e0 0%,
+    rgba(105, 85, 224, 0) 100%
+  );
+  z-index: -1;
+  animation: golgol 22s infinite;
+}
+
+.inner__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #211b47 52.25%, rgba(29, 24, 63, 0) 96.01%);
+  bottom: -43%;
+}
+
+.hero__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 16px !important;
+  border-top-right-radius: 16px !important;
+}
+/* ------------ */
+.boltu {
+  z-index: 99;
+  position: absolute;
+  transition: all 10s;
+}
+
+body
+  > main
+  > section
+  > div
+  > article.hero__img
+  > div
+  > div.hero__img__left
+  > div:nth-child(2) {
+  left: 50%;
+  bottom: 19%;
+  animation: golgol 8s infinite;
+}
+
+body
+  > main
+  > section
+  > div
+  > article.hero__img
+  > div
+  > div.hero__img__left
+  > div:nth-child(3) {
+  left: 29%;
+  bottom: 56%;
+  animation: danbam 8.5s infinite;
+}
+
+.hero__img__left > div:nth-child(4) {
+  left: 43%;
+  top: 8%;
+  animation: birds 14s infinite;
+}
+body
+  > main
+  > section
+  > div
+  > article.hero__img
+  > div
+  > div.hero__img__right
+  > div:nth-child(2) {
+  right: 55%;
+  bottom: 10%;
+  animation: golgol 8s infinite;
+}
+
+body
+  > main
+  > section
+  > div
+  > article.hero__img
+  > div
+  > div.hero__img__right
+  > div:nth-child(3) {
+  top: 0;
+  left: 10%;
+  animation: danbam 8.5s infinite;
+}
+
+@keyframes danbam {
+  0% {
+    left: 29%;
+  }
+  50% {
+    left: 19%;
+  }
+  100% {
+    left: 29%;
+  }
+}
+@keyframes golgol {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes birds {
+  0% {
+    left: 43%;
+  }
+  25% {
+    left: 38%;
+    top: -14%;
+  }
+  50% {
+    left: 43%;
+    top: 8%;
+  }
+  75% {
+    left: 50%;
+    top: -14%;
+  }
+  100% {
+    left: 43%;
+    top: 8%;
+  }
+} /* ------------- */
+
+p.hero__LOgos__headline {
+  /* Headline */
+
+  /* Body/Large/Medium */
+  font-weight: 500;
+  font-size: 18px;
+
+  /* identical to box height, or 29px */
+  text-align: center;
+
+  /* Accent/Lavender */
+  color: #e9e6ff;
+  opacity: 0.8;
+
+  /* Inside auto layout */
+}
+
+article.logos__hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.logos__in__hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 105px;
+  flex-wrap: wrap;
+}
+
+/* -----------hero done------------- */

@@ -11,6 +11,9 @@
   font-size: 22px;
 }
 
+main {
+  overflow-x: hidden !important;
+}
 strong.logo {
   font-size: 100%;
 }
@@ -74,5 +77,48 @@ button.get__started__br__hero {
 button.get__started__br__hero svg {
   width: 18px;
   height: 18px px;
+}
+h1.H__title {
+  position: relative;
+}
+
+h1.H__title::after {
+  content: "";
+  width: 202px;
+  height: 6px;
+  background: #e08155;
+  position: absolute;
+  top: 26%;
+  right: 8.2%;
+  z-index: -1;
+}
+.hero__img img {
+  border-top-left-radius: 16px !important;
+  border-top-right-radius: 16px !important;
+}
+.hero__img__left {
+  position: absolute;
+  left: -18%;
+  top: -24%;
+  width: 100%;
+}
+
+.hero__img__right {
+  position: absolute;
+  top: -55%;
+  right: -18%;
+  width: 100%;
+  z-index: -1;
+}
+.boltu {
+  display: none;
+}
+.logos__in__hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px 30px;
+  flex-wrap: wrap;
 }
 /* #############----HERO DONE----############## */
