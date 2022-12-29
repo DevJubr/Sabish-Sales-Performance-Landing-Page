@@ -9,12 +9,12 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: "Manrope", sans-serif;
 }
 
 body {
   /* Neutral/Haiti */
   background: #211b47;
-  font-family: "Manrope", sans-serif;
 }
 .con {
   max-width: 1440px;
@@ -135,3 +135,64 @@ button.nav__get__start__btn {
 }
 
 /* ################ NAV BAR END ################  */
+
+article.head__of__hero {
+  height: 356px;
+  margin: 0 auto;
+  width: calc(100% / 1.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 88px;
+}
+
+.hero__alart_dot {
+  width: 8px;
+  height: 8px;
+
+  /* Accent/Burnt Sienna */
+  background: #e08155;
+  border-radius: 50%;
+}
+
+.hero__alart__con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  background: rgba(224, 129, 85, 0.1);
+  border-radius: 32px;
+}
+
+p.hero__alart_text {
+  font-weight: 700;
+  font-size: 14px;
+
+  /* identical to box height, or 20px */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* Accent/Burnt Sienna */
+  color: #e08155;
+}
+
+button.get__started__br__hero {
+  border: none;
+  padding: 16px 24px;
+  background: linear-gradient(270deg, #7760ff 0%, #e08155 100%);
+  border-radius: 48px;
+  font-weight: 800;
+  font-size: 16px;
+
+  /* or 500% */
+
+  /* Accent/Lavender */
+  color: #e9e6ff;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
