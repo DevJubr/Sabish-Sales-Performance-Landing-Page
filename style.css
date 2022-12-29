@@ -21,7 +21,9 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
+button {
+  cursor: pointer;
+}
 .H__title {
   font-family: "Manrope";
   font-style: normal;
@@ -411,5 +413,161 @@ article.logos__hero {
   gap: 105px;
   flex-wrap: wrap;
 }
+/* section.hero {
+  margin: 0 0 10rem 0;
+} */
 
 /* -----------hero done------------- */
+/* ----------------------- */
+.alart__con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  background: rgba(224, 129, 85, 0.1);
+  border-radius: 32px;
+}
+
+p.alart__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* Accent/Burnt Sienna */
+  color: #e08155;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+
+  /* Accent/Burnt Sienna */
+  background: #e08155;
+  border-radius: 50%;
+}
+
+.alart__con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  background: rgba(224, 129, 85, 0.1);
+  border-radius: 32px;
+}
+
+p.alart__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* Accent/Burnt Sienna */
+  color: #e08155;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+
+  /* Accent/Burnt Sienna */
+  background: #e08155;
+  border-radius: 50%;
+}
+
+h2.H__title.section__head__Line {
+  font-size: 56px;
+  text-align: left;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.text__portion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: calc(100% / 2.6);
+}
+p.p__pera.section__pera {
+  text-align: left;
+}
+button.transparent__getStared__btn {
+  padding: 16px 24px;
+  border: 1px solid #7760ff;
+  border-radius: 48px;
+  background: none;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #e9e6ff;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin: 1.2rem 0;
+}
+.section__img__portion {
+  width: calc(100% / 2.5);
+}
+
+img.section__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.section__con {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+h2.H__title.section__head__Line::after {
+  content: "";
+  position: absolute;
+  width: 184px;
+  height: 8px;
+
+  /* Accent/Burnt Sienna */
+  background: #e08155;
+  left: 0px;
+  top: 44%;
+}
+section.tow,
+section.four {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ______________3______________ */
+
+section.three {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.three .section__con {
+  background: #45389485;
+  padding: 4rem 0px;
+  border-radius: 24px;
+  height: 100%;
+}
+.three h2.H__title.section__head__Line::after {
+  content: "";
+  position: absolute;
+  width: 184px;
+  height: 8px;
+
+  /* Accent/Burnt Sienna */
+  background: #e08155;
+  left: 0px;
+  top: 33%;
+}
