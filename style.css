@@ -17,8 +17,8 @@ body {
   background: #211b47;
 }
 .con {
-  max-width: 1440px;
-  width: 100%;
+  max-width: 1540px;
+  width: 95%;
   margin: 0 auto;
 }
 button {
@@ -537,22 +537,12 @@ h2.H__title.section__head__Line::after {
   left: 0px;
   top: 44%;
 }
-section.tow,
-section.four {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+section {
+  margin-bottom: 140px;
 }
 
 /* ______________3______________ */
-
-section.three {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .three .section__con {
   background: #45389485;
@@ -570,4 +560,107 @@ section.three {
   background: #e08155;
   left: 0px;
   top: 33%;
+}
+/* ______________5______________ */
+.five .section__con {
+  position: relative;
+}
+
+.five .section__img__portion {
+  width: unset;
+  position: absolute;
+  top: 0;
+  left: -16%;
+}
+
+.five .text__portion {
+  position: absolute;
+  right: 0;
+  /* left: 50%; */
+  transform: translate(0%, 95%);
+}
+/* -----------------6---------------- */
+
+.section__con_six {
+  margin-top: 55rem;
+}
+
+.section__con_six {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 136px;
+}
+
+.text__portion__six {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__article__con {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+article.section__six {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 91px 80px 34px;
+  gap: 40px;
+  isolation: isolate;
+
+  /* Neutral/Neutral/Minsk */
+  background: #453894;
+  border-radius: 24px;
+  position: relative;
+}
+
+p.p__pera.section__six__aricle__pera {
+  text-align: left;
+}
+
+h3.section__articale__headline {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  /* or 32px */
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.polygon {
+  width: 128px;
+  height: 128px;
+
+  background: rgb(224 129 85 / 80%);
+
+  box-shadow: 0px 44px 36px rgba(69, 56, 148, 0.6);
+  backdrop-filter: blur(46px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -72px;
+}
+.polygon::after {
+  content: "";
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  left: 0;
+  top: -4px;
+  border-radius: 50%;
+  z-index: -11;
+  background: #a65f67;
 }

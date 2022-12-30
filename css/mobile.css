@@ -263,3 +263,52 @@ h2.H__title.section__head__Line::after {
   left: 0px;
   top: 26%;
 }
+
+/* -----------5------------- */
+.five .section__con {
+  position: relative;
+}
+
+.five .text__portion {
+  margin-top: 22rem !important;
+}
+.five .section__img__portion {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: -5.5%;
+}
+@media screen and (min-width: 444px) and (max-width: 568px) {
+  .five .text__portion {
+    margin-top: 10rem !important;
+    position: unset;
+  }
+}
+/* --------------------- */
+.section__article__con {
+  flex-wrap: wrap;
+  gap: 8rem 0;
+}
+
+article.section__six {
+  width: 100%;
+  padding: 5rem 2rem 2rem 2rem;
+}
+h3.section__articale__headline {
+  font-size: 22px;
+}
+p.p__pera.section__six__aricle__pera {
+  font-size: 14px;
+}
+article.section__six {
+  gap: 30px;
+}
+.polygon {
+  width: 100px;
+  height: 100px;
+  top: -55px;
+}
+.polygon::after {
+  width: 100px;
+  height: 100px;
+}
