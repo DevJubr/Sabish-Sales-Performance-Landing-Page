@@ -115,25 +115,3 @@ body
   width: 100%;
   color: wheat;
 }
-.givr__img {
-  width: 58px;
-  height: 58px;
-  background: #ddd;
-  border-radius: 50%;
-}
-
-.gever {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-p.giver__name {
-  font-weight: 600;
-  text-transform: capitalize;
-}
-
-span.prosition {
-  font-size: 15px;
-  color: #e08155;
-}
