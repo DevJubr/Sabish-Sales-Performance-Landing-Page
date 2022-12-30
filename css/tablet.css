@@ -52,3 +52,20 @@ article.section__six {
   width: calc(100% / 1.8);
   padding: 8rem 3rem 3rem 3rem;
 }
+/* -----------7------------ */
+.section__testoial__section {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+article.revew {
+  width: calc(100% / 2);
+}
+body
+  > main
+  > section.seven
+  > div
+  > div
+  > div.section__testoial__section
+  > article:nth-child(3) {
+  z-index: unset;
+}

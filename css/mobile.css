@@ -312,3 +312,52 @@ article.section__six {
   width: 100px;
   height: 100px;
 }
+/* ------------------7 */
+.section__article__con {
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+
+article.section__six {
+  padding: 8rem 3rem 3rem 3rem;
+  gap: 3.2rem;
+}
+/* -----------7------------ */
+.section__testoial__section {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+article.revew {
+  width: 100%;
+}
+body
+  > main
+  > section.seven
+  > div
+  > div
+  > div.section__testoial__section
+  > article:nth-child(3) {
+  z-index: unset;
+}
+.section__seven__fst__portion {
+  padding: 0;
+  align-items: flex-start;
+}
+.slider__btns {
+  display: none;
+}
+.section__seven__fst__portion h2 {
+  width: unset;
+  font-size: 42px;
+}
+p.testmonial {
+  font-weight: 500;
+  font-size: 14px;
+  color: #211b47;
+}
+.section__seven__con {
+  padding: 0;
+  background: unset;
+  border-radius: 0;
+  gap: 55px;
+}
