@@ -19,8 +19,8 @@ strong.logo {
 }
 
 .logo__icon {
-  width: 34px;
-  height: 38px;
+  width: 28px;
+  height: 30px;
 }
 
 .logo__icon svg {
@@ -329,6 +329,10 @@ article.section__six {
 }
 article.revew {
   width: 100%;
+  gap: 32px;
+}
+img.star___img {
+  width: 72%;
 }
 body
   > main
@@ -726,4 +730,12 @@ p.copyright__text span {
 }
 footer {
   margin-bottom: 2rem;
+}
+.text__portion__six {
+  margin-top: 5rem;
+  align-items: flex-start;
+}
+img.lines {
+  width: 100%;
+  opacity: 0.1;
 }
